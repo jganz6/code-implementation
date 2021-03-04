@@ -11,7 +11,7 @@ function cekPalindrom(teks) {
         }
         //begin
         //perulangan untuk mengecek per index string dan mengontrol isi palindrom
-        while (i < (n / 2) && palindrom == true) {
+        while (i < (n / 2) && palindrom === true) {
             if (teks[i] === teks[n - (i + 1)]) {
                 palindrom = true;
             } else {
